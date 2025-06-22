@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive 3D Product Viewer</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div id="container">
+        <canvas id="canvas"></canvas>
+        <div id="info-panel" class="hidden">
+            <h3 id="part-name"></h3>
+            <p id="part-description"></p>
+        </div>
+        <div id="controls">
+            <button id="toggle-rotation">Pause Auto-Rotation</button>
+            <button id="reset-camera">Reset Camera</button>
+        </div>
+    </div>
+
+    <!-- Three.js CDN -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/three@0.128.0/examples/js/controls/OrbitControls.js"></script>
+    
+    <!-- Application Scripts -->
+    <script src="scripts/initScene.js"></script>
+    <script src="scripts/createProduct.js"></script>
+    <script src="scripts/addLighting.js"></script>
+    <script src="scripts/interaction.js"></script>
+    <script src="scripts/cameraAnimation.js"></script>
+    <script src="scripts/main.js"></script>
+</body>
+</html> 
