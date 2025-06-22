@@ -1,3 +1,4 @@
+# Yitbarek Alemu - Section 1 - UGR/7554/15
 # Interactive 3D Product Viewer
 
 An interactive 3D product viewer built with Three.js that allows users to explore a chair model created entirely from basic geometries. The application features automatic camera rotation, mouse interaction, and part highlighting.
